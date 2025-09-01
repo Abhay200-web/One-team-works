@@ -1,0 +1,30 @@
+  :root{
+    --my-color:rgb(98,98,238);
+    --my-color2:red;
+        }
+div{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+}
+div:hover{
+    width: 350px;
+    height: 400px;
+    background-color:var(--my-color);
+    transition: width 2s;
+    transition: height 1s;
+}
+p{
+    color: var(--my-color);
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+p:hover{
+    color:var(--my-color2);
+    transition: 2s;
+}
+
+    
+/* responsive nav bar 
+page for listing all movies  */

@@ -1,0 +1,83 @@
+full stack developer - both front end and back end 
+-front end --html ,css, --ui human interface 
+-back end --java ,---instructions 
+program -set of instruction 
+types of program  -high level language man understandable language 
+                   -low level language machine understandable language 0's and 1's 
+python is a interpreted language  executes lie by line code 
+ 
+
+
+software development life cycle (sdlc)
+   :is a step by step process that development team used to create high quality cost effective and secure software 
+   :different approaches 
+ #
+
+Key characteristics of the waterfall model:
+
+    Linear and Sequential:
+    Rigid:
+Well-Defined Requirements:
+Document-Driven 
+predictable:
+
+
+
+Advantages of the waterfall model:
+
+Simple and easy to understand: 
+
+Good for smaller projects: 
+Clear documentation: 
+
+
+
+2 :-agile model:-
+Key Characteristics of the Agile Model:
+-Iterative and Incremental
+-flexibility and adaptivity 
+-collaboration 
+-costumer satisfaction 
+-rapid delivery 
+
+common methodology 
+-scrum
+ A framework that uses sprints, daily scrums, sprint reviews, and sprint retrospectives
+
+
+disadvantage 
+-require fast 
+-difficult with large projects 
+
+v shape model :-
+
+q)what is algorithm 
+An algorithm is a step-by-step set of instructions designed to solve a problem or accomplish a task
+_________________________________________________________________________________________________________________________________________________________
+
+23/06/25
+
+ example algorithm :-
+______________________
+step1): start
+step2):input two numbers 
+step3):add two numbers 
+step4):display sum
+step5):stop
+
+
+#find le largest of three numbers :-
+step1)start
+step2)input three numbers 
+step3)read three numbers 
+step4)compare first number and second find the largest
+step5) compare the result from the step4 with third number find the largest
+step6)display output
+step7)stop
+
+FLOW CHART:-
+
+
+
+
+
