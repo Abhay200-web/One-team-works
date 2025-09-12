@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example register with js </title>
+</head>
+<body>
+    <form  name="register">
+        <label>Password</label>
+        <input type="password" name="pasword" oninput="ValidatePassword()" required>
+        <br>
+        <span id="password_msg" style="color: red;"></span>
+    </form>
+    <script>
+        function ValidatePassword(){
+            let password=document.forms["register"]["pasword"].value;
+            let pattern=/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-z\d]{7,}$/;
+            let passwordError=document.getElementById("password_msg");
+            if(!pattern.test(password)){
+               passwordError.innerHTML = ` <ul style="font-size:small;">
+                                                <li>Password must contain a small letter</li>
+                                                <li>one digit</li>
+                                                <li>one capital</li>
+                                                <li>at least 7 characters</li>
+                                            </ul>`;
+            }
+            else{
+                passwordError.textContent="";
+            }
+
+        }
+    </script>
+</body>
+</html>

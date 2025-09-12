@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h3 id="texta" ></h3>
+        <input type="text" id="name">
+
+        <button id="btn" class="btn">click</button>
+                <script>
+                    let button=document.getElementById("btn");
+                    button.addEventListener("click",function fun(){
+                        console.log("hello first click")
+                    })
+                    button.addEventListener("click",function fun(){
+                        console.log("hello second  click")
+                    })
+                    let input=document.getElementById("name");
+                    let textArea=document.getElementById("texta");
+                    
+                    input.addEventListener("input",(g)=>{
+                        textArea.textContent=`hello ${g.target.value}`;
+                        
+                    })
+                    
+                    input
+                </script>
+</body>
+</html>
