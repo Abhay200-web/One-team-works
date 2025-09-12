@@ -74,3 +74,4 @@ numbers.forEach(function Square(num){
   console.log(num*num)  
 })
                            
+
