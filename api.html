@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src=""></script>
+</head>
+<body>
+    <script>
+        const options = {method:'GET',headers:{accept:'application/json'}};
+        fetch('https://imdb.iamidiotareyoutoo.com/search?q=Spiderman',options)
+        .them(res => res.json())
+        .them(res => {
+            console.log(res)
+        })
+        .catch(err => console.error(err));
+    </script>
+</body>
+</html>
