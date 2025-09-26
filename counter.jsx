@@ -6,6 +6,7 @@ function Counter(){
     function increment(){
         setCount(count+1)
     }
+    useEfffect(()=>console.log("Curent value of count "+count),[count])
     return(
         <>
         <p>{count}</p>
@@ -15,4 +16,4 @@ function Counter(){
 
     )
 }
-export default Counter
+export default Counter;
